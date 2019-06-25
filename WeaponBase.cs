@@ -103,7 +103,7 @@ public class WeaponBase : MonoBehaviour {
     }
 
     void Update() {
-        if(fireMode == FireMod.FullAuto && Input.GetButtonDown("Fire1")) {
+        if(fireMode == FireMode.FullAuto && Input.GetButton("Fire1")) {
             CheckFire();
         }
         else if(fireMode == FireMod.SemiAuto && Input.GetButtonDown("Fire1")) {
