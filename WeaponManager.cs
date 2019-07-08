@@ -5,7 +5,7 @@ using UnityEngine;
 public enum Weapon {
     Police9mm,
 
-    Magnum,
+    PortableMagnum,
 
     Compact9mm,
 
